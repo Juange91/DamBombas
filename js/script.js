@@ -1,0 +1,99 @@
+function formulario(){
+    var edificio=document.getElementById("edificio").value;
+    var fecha=document.getElementById("fecha").value;
+    var direccion=document.getElementById("direccion").value;
+    var numero=Number(document.getElementById("numero").value);
+    var marca1=document.getElementById("marca1").value;
+    var marca2=document.getElementById("marca2").value;
+    var marca3=document.getElementById("marca3").value;
+    var modelo1=document.getElementById("modelo1").value;
+    var modelo2=document.getElementById("modelo2").value;
+    var modelo3=document.getElementById("modelo3").value;
+    var tablero1=document.getElementById("tablero1").value;
+    var tablero2=document.getElementById("tablero2").value;
+    var tablero3=document.getElementById("tablero3").value;
+    var motor1=document.getElementById("motor1").value;
+    var motor2=document.getElementById("motor2").value;
+    var motor3=document.getElementById("motor3").value;
+    var cantidad1=Number(document.getElementById("cantidad1").value);
+    var cantidad2=Number(document.getElementById("cantidad2").value);
+    var cantidad3=Number(document.getElementById("cantidad3").value);
+    var amperaje1=Number(document.getElementById("amperaje1").value);
+    var amperaje2=Number(document.getElementById("amperaje2").value);
+    var amperaje3= Number(document.getElementById("amperaje3").value);
+    var hp1=Number(document.getElementById("hp1").value);
+    var hp2=Number(document.getElementById("hp2").value);
+    var hp3=Number(document.getElementById("hp3").value);
+    var presostato1=document.getElementById("presostato1").value;
+    var presostato2=document.getElementById("presostato2").value;
+    var voltaje1=document.getElementById("voltaje1").value;
+    var voltaje2=document.getElementById("voltaje2").value;
+    var voltaje3=document.getElementById("voltaje3").value;
+    var flotador1=document.getElementById("flotador1").value;
+    var flotador2=document.getElementById("flotador2").value;
+    var flotador3=document.getElementById("flotador3").value;
+    var manometro1=document.getElementById("manometro1").value;
+    var manometro2=document.getElementById("manometro2").value;
+    var tanque1=Number(document.getElementById("tanque1").value);
+    var tanque2=Number(document.getElementById("tanque2").value);
+    var hidro1=document.getElementById("hidro1").value;
+    var hidro2=document.getElementById("hidro2").value;
+    var mecanico1=document.getElementById("mecanico1").value;
+    var mecanico2=document.getElementById("mecanico2").value;
+    var pozo1=Number(document.getElementById("pozo1").value);
+    var pozo2=document.getElementById("pozo2").value;
+    var txt=document.getElementById("txt").value;
+    var tecnico=document.getElementById("tecnico").value;
+
+
+
+ document.getElementById("e").value = edificio;
+ document.getElementById("f").value = fecha;
+ document.getElementById("d").value = direccion;
+ document.getElementById("n").value = numero;
+ document.getElementById("mar1").value = marca1;
+ document.getElementById("mar2").value = marca2;
+ document.getElementById("mar3").value = marca3;
+ document.getElementById("m1").value = modelo1;
+ document.getElementById("m2").value = modelo2;
+ document.getElementById("m3").value = modelo3;
+ document.getElementById("t1").value = tablero1;
+ document.getElementById("t2").value = tablero2;
+ document.getElementById("t3").value = tablero3;
+ document.getElementById("mo1").value = motor1;
+ document.getElementById("mo2").value = motor2;
+ document.getElementById("mo3").value = motor3;
+ document.getElementById("c1").value = cantidad1;
+ document.getElementById("c2").value = cantidad2;
+ document.getElementById("c3").value = cantidad3;
+ document.getElementById("a1").value = amperaje1;
+ document.getElementById("a2").value = amperaje2;
+ document.getElementById("a3").value = amperaje3;
+ document.getElementById("h1").value = hp1;
+ document.getElementById("h2").value = hp2;
+ document.getElementById("h3").value = hp3;
+ document.getElementById("p1").value = presostato1;
+ document.getElementById("p2").value = presostato2;
+ document.getElementById("v1").value = voltaje1;
+ document.getElementById("v2").value = voltaje2;
+ document.getElementById("v3").value = voltaje3;
+ document.getElementById("f1").value = flotador1;
+ document.getElementById("f2").value = flotador2;
+ document.getElementById("f3").value = flotador3;
+ document.getElementById("ma1").value = manometro1;
+ document.getElementById("ma2").value = manometro2;
+ document.getElementById("ta1").value = tanque1;
+ document.getElementById("ta2").value = tanque2;
+ document.getElementById("hi1").value = hidro1;
+ document.getElementById("hi2").value = hidro2;
+ document.getElementById("me1").value = mecanico1;
+ document.getElementById("me2").value = mecanico2;
+ document.getElementById("po1").value = pozo1;
+ document.getElementById("po2").value = pozo2;
+ document.getElementById("tx").value = txt;
+ document.getElementById("tec").value = tecnico;
+ 
+ 
+ 
+ 
+}

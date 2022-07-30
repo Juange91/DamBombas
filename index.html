@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanBombas</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  
+
+
+<div id="pincipal">
+ 
+<h1>DanBombas Instalaciones</h1>
+
+<h2 class="titulos">NIT: 1022419268-8</h2>
+
+ 
+
+  <table id="primaria" border="2">
+    <tr>
+      <th colspan="6">REPORTE DE MANTENIMIENTO Y REVISIÓN</th>
+  </tr>
+  <tr>
+    <td colspan="3">EDIFICIO: 
+      <input type="text" id="edificio"></td>
+      <td colspan="4">
+        FECHA: 
+  <input type="date" id="fecha">
+      </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      DIRECCIÓN: 
+      <input type="text" id="direccion">
+    </td>
+    <td>
+      N°:
+      <input type="number" id="numero">
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>EQUIPO DE PRESIÓN</td>
+    <td> EQUIPO EYECTOR</td>
+    <td>EQUIPO CONTRAINCENDIO</td>
+  </tr>
+  <tr> <td>  MARCA:</td><td>
+    <select id="marca1">
+  <option  value="">(Seleccione)</option>
+  <option value="IHM">IHM</option>
+  <option value="BARNES">BARNES</option>
+  <option value="BARMESA">BARMESA</option>
+  <option value="PEDROLLO">PEDROLLO</option>
+  <option value="NINGUNA">NINGUNA</option>
+  
+  </select></td>
+  <td>
+  <select id="marca2">
+  <option  value="">(Seleccione)</option>
+  <option value="IHM">IHM</option>
+  <option value="BARNES">BARNES</option>
+  <option value="BARMESA">BARMESA</option>
+  <option value="PEDROLLO">PEDROLLO</option>
+  <option value="NINGUNA">NINGUNA</option>
+  
+  </select></td>
+  <td>
+  <select id="marca3">
+  <option  value="">(Seleccione)</option>
+  <option value="IHM">IHM</option>
+  <option value="BARNES">BARNES</option>
+  <option value="BARMESA">BARMESA</option>
+  <option value="PEDROLLO">PEDROLLO</option>
+  <option value="NINGUNA">NINGUNA</option>
+  
+  </select></td></tr>
+  <tr> <td>MODELO:</td>
+  <td><input type="text" id="modelo1"></td>
+  <td><input type="text" id="modelo2"></td>
+  <td><input type="text" id="modelo3"></td>
+</td></tr>
+  <tr> <td>ESTADO TABLERO:</td>
+  <td><select id="tablero1" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td><select id="tablero2" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td><select id="tablero3" id="">
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td></tr>
+  <tr> <td>ESTADO MOTORES:</td>
+  <td><select id="motor1" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    </select></td>
+  <td><select id="motor2" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    </select></td>
+  <td><select id="motor3">
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="REGULAR">REGULAR</option>
+    <option value="MALO">MALO</option>
+    </select></td></tr>
+  <tr> <td>CANTIDAD DE MOTORES</td>
+  <td><input type="number" id="cantidad1"> </td>
+  <td><input type="number" id="cantidad2"> </td>
+  <td><input type="number" id="cantidad3"> </td></tr>
+  <tr> <td>AMPERAJES:</td>
+  <td><input type="number" id="amperaje1"> </td>
+  <td><input type="number" id="amperaje2"> </td>
+  <td><input type="number" id="amperaje3"> </td></tr>
+  <tr> <td>HP MOTORES:</td>
+  <td><input type="number" id="hp1"> </td>
+  <td><input type="number" id="hp2"> </td>
+  <td><input type="number" id="hp3"> </td></tr>
+  <tr> <td>PRESOSTATOS DE PRESIÓN:</td>
+  <td><select id="presostato1" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+    <td></td>
+  <td>
+  <select id="presostato2" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select>
+    </td>
+  </tr>
+  <tr> <td>VOLTAJE MOTORES:</td><td>
+    <select id="voltaje1" >
+    <option value="">(Seleccione)</option>
+    <option value="110v">110v</option>
+    <option value="220v">220v</option>
+    <option value="360">360v</option>
+    <option value="440v">440v</option>
+    </select></td>
+  <td><select id="voltaje2" >
+    <option value="">(Seleccione)</option>
+    <option value="110v">110v</option>
+    <option value="220v">220v</option>
+    <option value="360">360v</option>
+    <option value="440v">440v</option>
+    </select></td>
+  <td><select id="voltaje3" >
+    <option value="">(Seleccione)</option>
+    <option value="110v">110v</option>
+    <option value="220v">220v</option>
+    <option value="360">360v</option>
+    <option value="440v">440v</option>
+    </select></td></tr>
+  <tr><td>FLOTADOR ELECTRICO:</td>
+  <td><select id="flotador1">
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td><select id="flotador2" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td><select id="flotador3" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td></tr>
+  <tr> <td>LECTURA MANOMETROS:</td>
+  <td><input type="text" id="manometro1"> </td>
+  <td></td>
+  <td><input type="text" id="manometro2"> </td></tr>
+  <tr> <td> PRECARGA DE TANQUES:</td>
+  <td><input type="number" id="tanque1"></td>
+  <td></td>
+  <td><input type="number" id="tanque2"></td></tr>
+  <tr><td>TANQUES HIDROFLO:</td>
+  <td><select id="hidro1" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td></td>
+  <td><select id="hidro2" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td></tr>
+  <tr> <td> FLOTADOR MECANICO:</td>
+  <td><select id="mecanico1" >
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td>
+  <td></td>
+  <td><select id="mecanico2">
+    <option value="">(Seleccione)</option>
+    <option value="BUENO">BUENO</option>
+    <option value="MALO">MALO</option>
+    <option value="NO TIENE">NO TIENE</option>
+    </select></td></tr>
+    <tr> <td>CANTIDAD DE POZOS</td> 
+    <td></td>
+    <td><input type="number" id="pozo1"></td>
+    <td></td>
+  </tr>
+    <tr><td> ESTADO DE LOS POZOS:</td>
+    <td></td>
+    <td><select id="pozo2" >
+      <option value="">(Seleccione)</option>
+      <option value="PARA LIMPIEZA">PARA LIMPIEZA</option>
+      <option value="LIMPIO">LIMPIO</option>
+      </select> </td>
+    <td></td>
+  </tr>
+</table>
+      <h2 class="titulos">INFORME TÉCNICO Y OBSERVACIONES</h2>
+
+      <textarea id="txt" rows="10" cols="180"></textarea>
+
+     <h3 class="titulos">NOMBRE DEL TECNICO</h>
+      <input type="text" id="tecnico"> </th>
+
+      <button id="boton" onclick="formulario()" >GUARDAR</button>
+      
+    
+
+</div>
+
+<h1>DanBombas Instalaciones</h1>
+
+<h2 class="titulos">NIT: 1022419268-8</h2>
+<table id="secundaria" border="2">
+  
+    <tr>
+      <th colspan="6">REPORTE DE MANTENIMIENTO Y REVISIÓN</th>
+  </tr>
+  <tr>
+    <td colspan="3">EDIFICIO: 
+      <input type="text" id="e"> </td>
+      <td colspan="4">
+        FECHA: 
+        <input type="text" id="f"> 
+      </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      DIRECCIÓN: 
+      <input type="text" id="d"> 
+    </td>
+    <td>
+      N°:
+      <input type="number" id="n"> 
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>EQUIPO DE PRESIÓN</td>
+    <td> EQUIPO EYECTOR</td>
+    <td>EQUIPO CONTRAINCENDIO</td>
+  </tr>
+  <tr> <td>  MARCA:</td>
+    <th><input type="text" id="mar1"> </th>
+  <th><input type="text" id="mar2"> </th>
+  <th><input type="text" id="mar3"> </th></tr>
+  <tr> <td>MODELO:</td>
+  <th> <input type="text" id="m1"> </th>
+  <th> <input type="text" id="m2"> </th>
+  <th> <input type="text" id="m3"> </th></tr>
+  <tr> <td>ESTADO TABLERO:</td>
+  <th> <input type="text" id="t1"> </th>
+  <th> <input type="text" id="t2"> </th>
+  <th> <input type="text" id="t3"> </th></tr>
+  <tr> <td>ESTADO MOTORES:</td>
+  <th> <input type="text" id="mo1"> </th>
+  <th> <input type="text" id="mo2"> </th>
+  <th> <input type="text" id="mo3"> </th></tr>
+  <tr> <td>CANTIDAD DE MOTORES</td>
+  <th> <input type="number" id="c1"> </th>
+  <th> <input type="number" id="c2"> </th>
+  <th> <input type="number" id="c3"> </th></tr>
+  <tr> <td>AMPERAJES:</td>
+  <th> <input type="number" id="a1"> </th>
+  <th> <input type="number" id="a2"> </th>
+  <th> <input type="number" id="a3"> </th></tr>
+  <tr> <td>HP MOTORES:</td>
+  <th> <input type="number" id="h1"> </th>
+  <th> <input type="number" id="h2"> </th>
+  <th> <input type="number" id="h3"> </th></tr>
+  <tr> <td>PRESOSTATOS DE PRESIÓN:</td>
+  <th><input type="text" id="p1"> </th>
+  <th></th>
+  <th><input type="text" id="p2"> </th>
+  </tr>
+  <tr> <td>VOLTAJE MOTORES:</td>
+  <th> <input type="text" id="v1"> </th>     
+  <th> <input type="text" id="v2"> </th>
+  <th> <input type="text" id="v3"> </th>
+</tr>
+  <tr><td>FLOTADOR ELECTRICO:</td>
+  <th> <input type="text" id="f1"> </th>
+  <th> <input type="text" id="f2"> </th>
+  <th> <input type="text" id="f3"> </th>
+  <tr> <td>LECTURA MANOMETROS:</td>
+  <th><input type="text" id="ma1"> </th>
+  <th></th>
+  <th> <input type="text" id="ma2"> </th></tr>
+  <td> PRECARGA DE TANQUES:</td>
+  <th><input type="number" id="ta1"></th>
+  <th></th>
+  <th><input type="number" id="ta2"></th></tr>
+  <tr><td>TANQUES HIDROFLO:</td>
+  <th><input type="text" id="hi1"> </th>
+  <th></th>
+  <th><input type="text" id="hi2"> </th></tr>
+  <tr> <td> FLOTADOR MECANICO:</td>
+  <th><input type="text" id="me1"> </th>
+  <th></th>
+  <th><input type="text" id="me2"> </th>
+    <tr> <td>CANTIDAD DE POZOS</td> 
+    <th></th>
+    <th><input type="number" id="po1"></th>
+    <th></th>
+  </tr>
+    <tr><td> ESTADO DE LOS POZOS:</td>
+    <th></th>
+    <th><input type="text" id="po2"></th>
+    <th></th>
+  </tr>
+ 
+
+</table>
+
+ 
+ 
+   
+      <h2 class="titulos">INFORME TÉCNICO Y OBSERVACIONES</h2>
+      <textarea id="tx" rows="10" cols="180"></textarea>
+     
+      <h3 class="titulos">NOMBRE DEL TECNICO</h>
+        <input type="text" id="tec"> </th>
+      <script src="js/script.js"></script>
+</body>
+<footer>
+  <h3 class="titulos">Correo: instalacionesdanbombas@gmail.com</h3>
+  <h3 class="titulos">Contacto: 3223138788 - 3204131947</h3>
+</footer>
+
+</html>
