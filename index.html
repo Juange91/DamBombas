@@ -11,9 +11,12 @@
 
 <body>
   
+  <img src="./img/img.jpg" alt="">
 
+<div id="principal">
 
-<div id="pincipal">
+  
+  
  
 <h1>DanBombas Instalaciones</h1>
 
@@ -21,7 +24,7 @@
 
  
 
-  <table id="primaria" border="2">
+  <table border="1" >
     <tr>
       <th colspan="6">REPORTE DE MANTENIMIENTO Y REVISIÓN</th>
   </tr>
@@ -44,7 +47,7 @@
     </td>
   </tr>
   <tr>
-    <td></td>
+    <td ></td>
     <td>EQUIPO DE PRESIÓN</td>
     <td> EQUIPO EYECTOR</td>
     <td>EQUIPO CONTRAINCENDIO</td>
@@ -77,9 +80,9 @@
   <option value="BARMESA">BARMESA</option>
   <option value="PEDROLLO">PEDROLLO</option>
   <option value="NINGUNA">NINGUNA</option>
-  
+  <br>
   </select></td></tr>
-  <tr> <td>MODELO:</td>
+  <tr> <td>MODELO: </td>
   <td><input type="text" id="modelo1"></td>
   <td><input type="text" id="modelo2"></td>
   <td><input type="text" id="modelo3"></td>
@@ -130,13 +133,13 @@
   <td><input type="number" id="cantidad2"> </td>
   <td><input type="number" id="cantidad3"> </td></tr>
   <tr> <td>AMPERAJES:</td>
-  <td><input type="number" id="amperaje1"> </td>
-  <td><input type="number" id="amperaje2"> </td>
-  <td><input type="number" id="amperaje3"> </td></tr>
+  <td><input type="text" id="amperaje1"> </td>
+  <td><input type="text" id="amperaje2"> </td>
+  <td><input type="text" id="amperaje3"> </td></tr>
   <tr> <td>HP MOTORES:</td>
-  <td><input type="number" id="hp1"> </td>
-  <td><input type="number" id="hp2"> </td>
-  <td><input type="number" id="hp3"> </td></tr>
+  <td><input type="text" id="hp1"> </td>
+  <td><input type="text" id="hp2"> </td>
+  <td><input type="text" id="hp3"> </td></tr>
   <tr> <td>PRESOSTATOS DE PRESIÓN:</td>
   <td><select id="presostato1" >
     <option value="">(Seleccione)</option>
@@ -197,7 +200,7 @@
     </select></td></tr>
   <tr> <td>LECTURA MANOMETROS:</td>
   <td><input type="text" id="manometro1"> </td>
-  <td></td>
+  <td>X</td>
   <td><input type="text" id="manometro2"> </td></tr>
   <tr> <td> PRECARGA DE TANQUES:</td>
   <td><input type="number" id="tanque1"></td>
@@ -210,7 +213,7 @@
     <option value="MALO">MALO</option>
     <option value="NO TIENE">NO TIENE</option>
     </select></td>
-  <td></td>
+  <td>X</td>
   <td><select id="hidro2" >
     <option value="">(Seleccione)</option>
     <option value="BUENO">BUENO</option>
@@ -224,7 +227,7 @@
     <option value="MALO">MALO</option>
     <option value="NO TIENE">NO TIENE</option>
     </select></td>
-  <td></td>
+  <td>X</td>
   <td><select id="mecanico2">
     <option value="">(Seleccione)</option>
     <option value="BUENO">BUENO</option>
@@ -232,47 +235,42 @@
     <option value="NO TIENE">NO TIENE</option>
     </select></td></tr>
     <tr> <td>CANTIDAD DE POZOS</td> 
-    <td></td>
+    <td>X</td>
     <td><input type="number" id="pozo1"></td>
-    <td></td>
+    <td>X</td>
   </tr>
     <tr><td> ESTADO DE LOS POZOS:</td>
-    <td></td>
+    <td>X</td>
     <td><select id="pozo2" >
       <option value="">(Seleccione)</option>
       <option value="PARA LIMPIEZA">PARA LIMPIEZA</option>
       <option value="LIMPIO">LIMPIO</option>
       </select> </td>
-    <td></td>
+    <td>X</td>
   </tr>
 </table>
       <h2 class="titulos">INFORME TÉCNICO Y OBSERVACIONES</h2>
 
       <textarea id="txt" rows="10" cols="180"></textarea>
 
-     <h3 class="titulos">NOMBRE DEL TECNICO</h>
-      <input type="text" id="tecnico"> </th>
-
+    </th><h3 class="titulos">Nombre del técnico <input type="text" id="tecnico"> </th></h3>
       <button id="boton" onclick="formulario()" >GUARDAR</button>
+      <br><br><br><br>
       
-    
-
-</div>
-
 <h1>DanBombas Instalaciones</h1>
 
 <h2 class="titulos">NIT: 1022419268-8</h2>
-<table id="secundaria" border="2">
+<table border="1">
   
     <tr>
       <th colspan="6">REPORTE DE MANTENIMIENTO Y REVISIÓN</th>
   </tr>
   <tr>
     <td colspan="3">EDIFICIO: 
-      <input type="text" id="e"> </td>
+      <input clase="opcion2" type="text" id="e"> </td>
       <td colspan="4">
         FECHA: 
-        <input type="text" id="f"> 
+        <input clase="opcion2" type="text" id="f"> 
       </td>
   </tr>
   <tr>
@@ -291,11 +289,11 @@
     <td> EQUIPO EYECTOR</td>
     <td>EQUIPO CONTRAINCENDIO</td>
   </tr>
-  <tr> <td>  MARCA:</td>
+  <tr> <td>  MARCA:<br>.</td>
     <th><input type="text" id="mar1"> </th>
   <th><input type="text" id="mar2"> </th>
   <th><input type="text" id="mar3"> </th></tr>
-  <tr> <td>MODELO:</td>
+  <tr> <td>MODELO:<br>.</td>
   <th> <input type="text" id="m1"> </th>
   <th> <input type="text" id="m2"> </th>
   <th> <input type="text" id="m3"> </th></tr>
@@ -311,17 +309,17 @@
   <th> <input type="number" id="c1"> </th>
   <th> <input type="number" id="c2"> </th>
   <th> <input type="number" id="c3"> </th></tr>
-  <tr> <td>AMPERAJES:</td>
-  <th> <input type="number" id="a1"> </th>
-  <th> <input type="number" id="a2"> </th>
-  <th> <input type="number" id="a3"> </th></tr>
-  <tr> <td>HP MOTORES:</td>
-  <th> <input type="number" id="h1"> </th>
-  <th> <input type="number" id="h2"> </th>
-  <th> <input type="number" id="h3"> </th></tr>
+  <tr> <td>AMPERAJES:<br>.</td>
+  <th> <input type="text" id="a1"> </th>
+  <th> <input type="text" id="a2"> </th>
+  <th> <input type="text" id="a3"> </th></tr>
+  <tr> <td>HP MOTORES: <br>.</td>
+  <th> <input type="text" id="h1"> </th>
+  <th> <input type="text" id="h2"> </th>
+  <th> <input type="text" id="h3"> </th></tr>
   <tr> <td>PRESOSTATOS DE PRESIÓN:</td>
   <th><input type="text" id="p1"> </th>
-  <th></th>
+  <th>X</th>
   <th><input type="text" id="p2"> </th>
   </tr>
   <tr> <td>VOLTAJE MOTORES:</td>
@@ -335,29 +333,29 @@
   <th> <input type="text" id="f3"> </th>
   <tr> <td>LECTURA MANOMETROS:</td>
   <th><input type="text" id="ma1"> </th>
-  <th></th>
+  <th>X</th>
   <th> <input type="text" id="ma2"> </th></tr>
   <td> PRECARGA DE TANQUES:</td>
   <th><input type="number" id="ta1"></th>
-  <th></th>
+  <th>X</th>
   <th><input type="number" id="ta2"></th></tr>
   <tr><td>TANQUES HIDROFLO:</td>
   <th><input type="text" id="hi1"> </th>
-  <th></th>
+  <th>X</th>
   <th><input type="text" id="hi2"> </th></tr>
   <tr> <td> FLOTADOR MECANICO:</td>
   <th><input type="text" id="me1"> </th>
-  <th></th>
+  <th>X</th>
   <th><input type="text" id="me2"> </th>
     <tr> <td>CANTIDAD DE POZOS</td> 
-    <th></th>
+    <th>X</th>
     <th><input type="number" id="po1"></th>
-    <th></th>
+    <th>X</th>
   </tr>
     <tr><td> ESTADO DE LOS POZOS:</td>
-    <th></th>
+    <th>X</th>
     <th><input type="text" id="po2"></th>
-    <th></th>
+    <th>X</th>
   </tr>
  
 
@@ -368,14 +366,14 @@
    
       <h2 class="titulos">INFORME TÉCNICO Y OBSERVACIONES</h2>
       <textarea id="tx" rows="10" cols="180"></textarea>
-     
-      <h3 class="titulos">NOMBRE DEL TECNICO</h>
-        <input type="text" id="tec"> </th>
+     <th><h3 class="titulos">Nombre del técnico
+
+        <input type="text" id="tec"> </th></h3>
       <script src="js/script.js"></script>
 </body>
-<footer>
+
   <h3 class="titulos">Correo: instalacionesdanbombas@gmail.com</h3>
   <h3 class="titulos">Contacto: 3223138788 - 3204131947</h3>
-</footer>
 
+</div>
 </html>

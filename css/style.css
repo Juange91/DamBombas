@@ -2,93 +2,85 @@
   @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&display=swap');
   h1{
-    text-align: center;
+    margin-left: 30%;
     font-family: 'Acme', sans-serif;
+    text-align: center;
   
 }
 
 .titulos{
-    text-align: center;
+    margin-left: 30%;
     font-family: 'Acme', sans-serif;
+    text-align: center;
 }
 
 
-body{
-    background-color: aqua;
-    
+img{
+    width:100%;
+   height: 450%;
+  position: absolute;
 }
 
 input{
     width: 270px;
     height: 20px;
-    border-radius: 10px;
-    font-size :20px;
+   
     font-family: 'Acme', sans-serif;
-    border-color: black;
-    border-style: double;
+    background: transparent;
+    border: white;
 
 }
 select{
 width: 270px;
 height: 25px;
-    border-radius: 10px;
+font-family: 'Acme', sans-serif;
+background: transparent;
+border: white;
     
-    font-family: 'Acme', sans-serif;
-    border-color: black;
-    border-style: double;
 }
-#secundaria{
 
-    width: 970px;
+#principal{
+width: 800px;
 height: 700px;
-margin-left: 50px;
-   
-}
-#primaria{
 
-    width: 800px;
-height: 700px;
-margin-left: 50px;
+position: absolute;
+
+
+
+
 }
 textarea{
     width: 970px;
-   
-    margin-left: 50px;
+    
 }
 #boton{
     width: 150px;
     height: 30px;
-    margin: 5% 50%;
+
    
+    margin-left: 50%;
 }
-#boton{
-    width 25px
-    height 100px
-}
-#tecnico{
-    margin 70% 70% 
-}
+
+
 
 
 @media screen and (max-width:550px) and (min-width: 320px){
     input{
         width: 100px;
         height: 20px;
-        border-radius: 10px;
        font-size: small;
         font-family: 'Acme', sans-serif;
-        border-color: black;
-        border-style: double;
+        background: transparent;
+    border: white;
     
     }
     select{
     width: 100px;
     height: 25px;
     font-size:medium;
-        border-radius: 10px;
         font-family: 'Acme', sans-serif ;
-        border-color: black;
-        border-style: double;
+        background: transparent;
+        border: white;
     }
     
 
@@ -96,8 +88,8 @@ textarea{
         font-size: small;
     }
     textarea{
-        width: 150%;
-        margin-left: 0px;
+      
+       width: 100%;
     }
 
     #boton{
@@ -107,18 +99,30 @@ textarea{
 
     }
 
-    #secundaria{
-
-        width:470px;;
-    height: 300px;
-    margin-left: 0px;
-       
-    }
-    #primaria{
-    
+   
+    #principal{
+   
         width: 470px;;
     height: 300px;
-    margin-left: 0px;
+  
     }
+
+    h1{
+        margin-left: 10%;
+        font-size:25px;
+        font-family: 'Acme', sans-serif;
+        text-align: center;
+      
+    }
+    
+    .titulos{
+        margin-left: 10%;
+        font-size: medium;
+        font-family: 'Acme', sans-serif;
+        text-align: center;
+    }
+    
+    
 }
+
 
